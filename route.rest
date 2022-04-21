@@ -1,0 +1,16 @@
+GET http://localhost:3000/singer
+
+###
+
+GET http://localhost:3000/2
+
+###
+POST http://localhost:3000/singer
+Content-Type: application/json
+
+{
+    "name": "Cavail",
+    "phone": 8110727796,
+    "part": "tenor",
+    "status":"inactive"
+}
